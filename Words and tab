@@ -1,0 +1,51 @@
+<div class="c1">
+  
+  <div>
+    <h1 id="title">Survey Form<h1>
+  </div>
+  <div>
+    <p id="description">Let us know your experience with social media.</p>
+  <div class="c2">
+  </div>
+  <form action="/submit" id="survey-form">
+  <div>
+    <label id="name-label">Name: <input type="text" PLaceholder="First and Last Name" id="name" required></label>
+    <label id="email-label">Email: <input type="email" PLaceholder="Email Address" id="email" required></label>
+    <label id="number-label">Age: <input type="number"  min="11" max="100"PLaceholder="Age" id="number" required></label>
+    <p>Genger:</p>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Other">Other<br>
+    <p >Are you attached to Your Phone:</p>
+    
+    <select id="dropdown">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      <option value="Maybe">Maybe</option>
+    </select>
+    <p>How many hour do you send on social media?</p>
+    <input type="radio" name="hours" value="1-2 hours">1-2 hours<br>
+    <input type="radio" name="hours" value="3-4 hours">3-4 hours<br>
+    <input type="radio" name="hours" value="5-6 hours">5-6 hours<br>
+    <input type="radio" name="hours" value="6 plus hours">6 plus hours<br>
+    <p>Which social media platforms do you spend time on?</p>
+    <input type="checkbox" name="platforms" value="Facebook">Facebook<br>
+    <input type="checkbox" name="platforms" value="Instagram">Instagram<br>
+    <input type="checkbox" name="platforms" value="Snapchat">Snapchat<br>
+    <input type="checkbox" name="platforms" value="Twitter">Twitter<br>
+    <input type="checkbox" name="platforms" value="Youtube">Youtube<br>
+    <input type="checkbox" name="platforms" value="Reddit">Reddit<br>
+    <input type="checkbox" name="platforms" value="Tumblr">Tumblr<br>
+  </div>
+  <div>
+    <p>Additional Comments:</p>
+    <textarea></textarea>
+    </div>
+  <div class="c3">
+  <div>
+    <input type="Submit" name="Submit" value="Submit" id="submit">
+  </div>
+  </div>
+  </form>
+  </div>
+</div>
