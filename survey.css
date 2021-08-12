@@ -1,0 +1,25 @@
+body{
+    background-color:#E6E6FA;
+  }
+  .c1{
+    background-color:white;
+    margin:30px 30px 30px 30px;
+  }
+  form{
+    margin-left:30%;
+    padding-bottom:3%;
+  }
+  #title{
+    text-align:center;
+  }
+  #description{
+    text-align:center;
+    height:70px;
+  }
+  #submit{
+    color:green;
+    height:50px;
+    width: 90px;
+  }
+  
+  
